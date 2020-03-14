@@ -16,3 +16,5 @@ One minor issue is that the general design principle of the interface is that th
 Finally, for now, after much effort using the "correct" Python functions to perform TCP/IP calls to the Marantz device, I've ended up using the "netcat" command (which can also be executed as "nc") and Popen.  I'm not happy about this as it means the interface is not written in "pure" Python, if anyone can correct this and replace "nc and Popen" by pure Python I'd welcome the change.
 
 I'd like to thank Dan Nagle for the PacketSender s/w (https://packetsender.com/) which I used in debugging my code.
+
+Requirements for running this module can in general be determined from the import statements (although these need some refinement, not all are required, at the moment 202003).  The difficult one is the netcat or nc, shell command.  This is available under Linux but I don't know the situation wrt to Windows or Apple OS's.
