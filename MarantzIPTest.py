@@ -4,7 +4,7 @@ import socket
 import time
 
 
-
+ 
 # setup the AVR object using your AVR IP
 print "Start"
 avr = Marantz5.IP("./nc.sh", "192.168.1.47", 23, 1) 
