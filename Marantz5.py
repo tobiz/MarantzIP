@@ -6,7 +6,7 @@ import time
 import string
 import socket
 
-
+ 
 class IP():    
     def __init__(self, script, ip, port, timer):
         print "Marantz5"

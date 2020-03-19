@@ -3,7 +3,7 @@ import Marantz5
 import socket
 import time
 
-
+ 
  
 # setup the AVR object using your AVR IP
 print "Start"
