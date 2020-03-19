@@ -1,6 +1,8 @@
 # MarantzIP
 Python module to perform IP control of Marantv AV systems
 
+20200319: Note use 'main' branch; having problems using Eclipse with github!!
+
 This is a Python module which enables control of Marantz AV sytems via the IP, ie network, interface. The module includes a test script and has been tested using a Marantz NR1604. The repository includes the specification of the Marantz RS232C/IP protocol which defines the command set. This information was obtained from the Internet as it proved impossible to obtain it from the Marantz website. If Marantz does not want me to include this information then if they provide a working URL to said information then I will remove the document from this repository and replace it with a link to the Marantz document.
 
 It has taken a considerable time to 'understand' how the Marantz protocol works as there appears to be information missing in its specification. Most noticeable is the definition of what is returned after a command is sent to a Marantz device.
