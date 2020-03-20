@@ -1,5 +1,5 @@
 # MarantzIP
-Python module to perform IP control of Marantv AV systems
+Python module to perform IP control of Marantz AV systems
 
 20200319: Note use 'main' branch; having problems using Eclipse with github!!
 
